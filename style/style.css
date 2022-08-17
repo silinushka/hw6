@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("../fonts/Roboto-Medium.ttf");
+    font-weight: 500;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.fix-size-container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #FFFFFF;
+    padding-top: 79px;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header .item a {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;   
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header .active a {
+    font-family: "Roboto-Medium";
+    font-weight: 500;
+    color: #34547A;
+}
+
+.header .active ~ .item {
+    margin-left: 42px;
+}
+
+.section-first {
+    background: #FFFFFF;
+    padding: 164px 0 144px 0;
+}
+
+.title {
+    font-family: "Roboto-Medium";
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.text-info {
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 540px;
+    margin-bottom: 65px;
+}
+
+.section-first .margin {
+    margin-bottom: 65 px;
+}
+
+.button {
+    width: 228px;
+    height: 62px;
+    background: #34547A;
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    border: none;
+}
+
+.section-second {
+    background-color: #FFFFFF;
+    padding: 106px 0;
+}
+
+.title-second {
+    font-family: "Roboto-Medium";
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.margin-auto {
+    margin: 0 auto;
+}
+
+
+.section-third {
+    background-color: #34547A;
+    padding: 100px 0;
+}
+
+.card {
+    width: 141px;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-right: 19px;
+}
+
+.card-text {
+    width: 72px;
+    color: #FFFFFF;
+}
+
+.card-text .num {
+    font-family: "Roboto-Medium";
+    font-size: 21 px;
+    line-height: 25px;
+}
+
+.card-text .text {
+    font-family: Roboto;
+    font-size: 16 px;
+    line-height: 26px;
+}
+
+.margin ~ .card {
+    margin-left: 47px;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+    margin-top: 57px;
+}
+
+.footer {
+    background-color: #34547A;
+    color: #FFFFFF;
+    padding: 50px;
+}
+
+.title-third {
+    font-family: "Roboto-Medium";
+    font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.text-info-third {
+    font-family: "Roboto";
+    font-size: 13px;
+    line-height: 21px;    
+    color: #FFFFFF;
+}
